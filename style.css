@@ -4,13 +4,13 @@ h1 {
   left: 50%; /* Move the h1 50% to the right */
   transform: translateX(-50%); /* Move the h1 50% to the left to center it */
   color: rgb(121, 11, 11);
-  font-size: 36px;
+  font-size: 56px;
 }
 
 .box {
   width: 100%; /* Set the width of the box */
   height: 100px; /* Set the height of the box */
-  background-color: #ffdbdb; /* Set the background color of the box */
+  background-color: #ff9a9a; /* Set the background color of the box */
   border: 1px solid #000000; /* Add a border around the box */
   padding: 5px; /* Add some padding inside the box */
   top: 2px;
