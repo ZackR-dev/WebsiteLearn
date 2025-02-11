@@ -10,7 +10,7 @@ h1 {
 .box {
   width: 100%; /* Set the width of the box */
   height: 100px; /* Set the height of the box */
-  background-color: #ffb1b1; /* Set the background color of the box */
+  background-color: #ffdbdb; /* Set the background color of the box */
   border: 1px solid #000000; /* Add a border around the box */
   padding: 5px; /* Add some padding inside the box */
   top: 2px;
