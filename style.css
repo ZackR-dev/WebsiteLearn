@@ -1,0 +1,98 @@
+h1 {
+  position: absolute;
+  top: 15px; /* Adjusted to move the h1 down slightly */
+  left: 50%; /* Move the h1 50% to the right */
+  transform: translateX(-50%); /* Move the h1 50% to the left to center it */
+  color: rgb(59, 59, 59);
+  font-size: 36px;
+}
+
+.box {
+  width: 100%; /* Set the width of the box */
+  height: 100px; /* Set the height of the box */
+  background-color: #ffb1b1; /* Set the background color of the box */
+  border: 1px solid #000000; /* Add a border around the box */
+  padding: 5px; /* Add some padding inside the box */
+  top: 2px;
+  bottom: 2px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.textbox {
+  width: 30%;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.button {
+  position: relative;
+  background-color: #af2319; /* Green background */
+  color: #fff; /* White text */
+  padding: 10px 70px; /* Add some padding */
+  border: 1px solid #000000; /* Remove default border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  top: 15px;
+}
+
+
+#Button1 {
+  transition: opacity 0.5s;
+}
+#Button1.fade-out {
+  animation: spin-fade-out 0.5s forwards;
+  opacity: 0;
+}
+#Button1.fade-in {
+  animation: spin-fade-in 0.5s forwards;
+  opacity: 1;
+}
+
+
+@keyframes spin-fade-out {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes spin-fade-in {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+
+#Button2 {
+  background-color: rgb(109, 143, 253);
+  color: #fff;
+  border:1px solid #000000;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+#Button2.fade-in {
+  animation: spin-fade-in 0.5s forwards;
+  opacity: 1;
+}
+#Button2.fade-out {
+  animation: spin-fade-out 0.5s forwards;
+  opacity: 0;
+}
