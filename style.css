@@ -3,7 +3,7 @@ h1 {
   top: 15px; /* Adjusted to move the h1 down slightly */
   left: 50%; /* Move the h1 50% to the right */
   transform: translateX(-50%); /* Move the h1 50% to the left to center it */
-  color: rgb(59, 59, 59);
+  color: rgb(121, 11, 11);
   font-size: 36px;
 }
 
