@@ -1,3 +1,8 @@
+body {
+  background-color: white;
+}
+
+
 h1 {
   position: relative;
   /*top: -48px;  Adjusted to move the h1 down slightly */
