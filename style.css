@@ -1,5 +1,6 @@
 body {
-  background-color: white;
+  background-color: rgb(189, 189, 189);
+  transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition */
 }
 
 
@@ -14,10 +15,11 @@ h1 {
 }
 
 .box {
+  transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition */
   position:relative;
   width: 100%; /* Set the width of the box */
   height: auto; /* Set the height of the box */
-  background-color: #ff9a9a; /* Set the background color of the box */
+  background-color: rgb(255, 154, 154); /* Set the background color of the box */
   border: 1px solid #000000; /* Add a border around the box */
   /*padding: 1em; Add some padding inside the box */
   top: 1px;
@@ -46,7 +48,7 @@ h1 {
 
 .button {
   position: relative;
-  background-color: #af2319; /* Green background */
+  background-color: #000000; /* Green background */
   color: #fff; /* White text */
   padding: 10px 70px; /* Add some padding */
   border: 1px solid #000000; /* Remove default border */
@@ -93,8 +95,8 @@ h1 {
 
 
 #Button2 {
-  background-color: rgb(109, 143, 253);
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
   border:1px solid #000000;
   transition: opacity 0.5s;
   opacity: 0.2;
